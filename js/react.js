@@ -1,3 +1,3 @@
-/**
- * Created by spskauynnda on 2016/7/9.
- */
+window.onload=function(){
+    alert(device-width);
+}

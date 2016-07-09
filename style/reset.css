@@ -1,0 +1,10 @@
+body,div,li{    margin:0;    padding:0;     border:0;}
+li{    list-style-type:none;}
+.p-red{   background: palevioletred    }
+.d-blue{   background: dodgerblue    }
+.l-green{   background: #3aee7b    }
+
+/*flex*/
+.flex1{     -webkit-flex:1;    }
+.flex2{     -webkit-flex:2;    }
+.flex3{     -webkit-flex:3;    }
