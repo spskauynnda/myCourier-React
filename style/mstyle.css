@@ -1,21 +1,92 @@
-.block{
-    width:100vw;
-    height: 100vh;;
+.top{
+    width: 100vw;
+    height: 4vh;
+    background: #ff2513;
+    position: fixed;
+    top:0;
+    z-index:10;;
 }
-.block-weight100px{
-    width: 100px;
+.title{
+    font-size: 16px;
+    color: white;
+}
+
+
+.banner{
     height: 30vh;
-    background: #6495ED;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 4vh;
 }
-.blockchild{
-    width: 80vw;
+.scroll{
+    width: 303vw;
     height: 30vh;
-    background: #6495ED;
 }
-.parent{
-    justify-content: center;
-    align-items: center;
+.scroll li{
+    width: 100vw;
+    height: 30vh;
+}
+.scroll li>div{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
     display: -webkit-flex;
 }
+.scroll li>div img {
+    width: 100vw;
+    height: 30vh;
+}
+.main{
+    width:100vw;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.main input,
+.main select{
+    font-size: 18px;
+}
+.list{
+    position: relative;
+}
+#name, #no{
+    width: 90vw;
+    height: 6vh;
+    margin-top: 2vh;
+}
+#btn{
+    width: 40vw;
+    height: 8vh;
+    margin-top: 2vh;
+    margin-bottom: 34vh;
+}
+.list-button {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+.list-button img{
+    width: 25px;
+    height: 25px;
+}
 
+.ifr{
+    width: 100vw;
+    height: 80vh;
+    background: #ccc;
+    position: relative;
+}
+.return{
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    display: none;
+}
 
+.foot{
+    width: 100vw;
+    justify-content: center;
+    padding-top: 2vh;
+}

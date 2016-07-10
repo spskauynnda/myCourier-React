@@ -10,12 +10,44 @@
 
 </head>
 <body>
-    <div class="block parent">
-        <div class="block-weight100px p-red"></div>
-        <div class="blockchild d-blue flex2"></div>
-        <div class="blockchild l-green flex3"></div>
+    <div class="top flex">
+        <div class="flex1"></div>
+        <div class="flex3 title parent flex">足 迹</div>
+        <div class="flex1"></div>
     </div>
+    <div class="banner">
+        <div class="scroll">
+            <ul class="flex">
+                <li>
+                    <div><img src="img/banner/banner_1.jpg"/></div>
+                </li>
+                <li>
+                    <div><img src="img/banner/banner_2.jpg"/></div>
+                </li>
+                <li>
+                    <div><img src="img/banner/banner_3.jpg"/></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main flex">
 
+        <div class="list">
+            <select id="name">
+                <option value="EMS" selected="selected">EMS</option>
+                <option value="顺丰快递">顺丰快递</option>
+                <option value="中通快递">中通快递</option>
+                <option value="韵达快递">韵达快递</option>
+            </select>
+            <!--<input id="name" type="text" value="中通快递" />-->
+            <!--<i class="list-button" id="list"> <img src="img/list.jpg" /> </i>-->
+        </div>
+        <input id="no" type="text" value="406245196032" />
+        <input id="btn" type="button" value="快递查询"/>
+        <iframe id="ifr" class="ifr" src=""></iframe>
+        <img src="img/return.jpg" class="return" id="return"/>
+    </div>
+    <div class="foot flex"><p>Copyright © 2016-2026 spskauynnda 版权所有</p></div>
     <script type="text/javascript" src="js/react.js"></script>
 </body>
 </html>
